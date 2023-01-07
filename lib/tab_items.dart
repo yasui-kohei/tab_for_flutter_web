@@ -24,6 +24,9 @@ class MyPageTabs {
         tab: Tab(
           child: Text(
             'タブ1',
+            style: TextStyle(
+              fontSize: 40,
+            ),
           ),
         ),
         view: Tab1Page()),
@@ -33,6 +36,9 @@ class MyPageTabs {
       tab: Tab(
         child: Text(
           'タブ2',
+          style: TextStyle(
+            fontSize: 40,
+          ),
         ),
       ),
       view: Tab2Page(),
@@ -43,6 +49,9 @@ class MyPageTabs {
       tab: Tab(
         child: Text(
           'タブ3',
+          style: TextStyle(
+            fontSize: 40,
+          ),
         ),
       ),
       view: Tab3Page(),

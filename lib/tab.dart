@@ -6,7 +6,13 @@ class Tab1Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('1'));
+    return const Center(
+        child: Text(
+      '1',
+      style: TextStyle(
+        fontSize: 40,
+      ),
+    ));
   }
 }
 
@@ -16,7 +22,13 @@ class Tab2Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('2'));
+    return const Center(
+        child: Text(
+      '2',
+      style: TextStyle(
+        fontSize: 40,
+      ),
+    ));
   }
 }
 
@@ -26,6 +38,12 @@ class Tab3Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('3'));
+    return const Center(
+        child: Text(
+      '3',
+      style: TextStyle(
+        fontSize: 40,
+      ),
+    ));
   }
 }
