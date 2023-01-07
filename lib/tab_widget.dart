@@ -37,7 +37,6 @@ class _MyPageTabWidgetState extends State<MyPageTabWidget>
   void didUpdateWidget(MyPageTabWidget oldWidget) {
     super.didUpdateWidget(oldWidget);
     _tabController.index = widget.index;
-    print(widget.index);
   }
 
   @override

@@ -11,7 +11,6 @@ final router = GoRouter(
     GoRoute(
       path: "/",
       pageBuilder: (context, state) {
-        print(state.path);
         return MaterialPage(
         key: state.pageKey,
         child: const HomePage(),
@@ -24,7 +23,6 @@ final router = GoRouter(
     GoRoute(
         path: "/myPage/:myPageId",
         pageBuilder: (context, state) {
-          print(state.path);
           final myPageId = state.params['myPageId'];
           final currentTab =
               MyPageTabs.data.firstWhere((tab) => tab.tabId == myPageId);
